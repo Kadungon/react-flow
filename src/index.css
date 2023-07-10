@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.text-updater-node {
+  font-family: "Open Sans", sans-serif;
+  border: 1px solid #4e4444;
+  width: 180px;
+  border-radius: 2rem;
+  background: rgb(233, 232, 232);
+}
+
+.circle {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 0.825rem;
+}
+
+span {
+  letter-spacing: 0.2rem;
+  font-size: 0.875rem;
+  align-self: center;
+  color: rgb(0, 0, 0);
+  margin-left: 1.1rem;
+  font-weight: 500;
+}
+
+.circle svg {
+  font-size: 1.875rem;
+  color: green;
+  padding: 0.25rem;
+}
